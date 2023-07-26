@@ -6,7 +6,7 @@ title: Day1
 # [704.Binary Search](https://leetcode.com/problems/binary-search/)
 
 ```C++
-// 左闭右闭
+// 左闭右闭gai
 class Solution {
 public:
     int search(vector<int>& nums, int target) {

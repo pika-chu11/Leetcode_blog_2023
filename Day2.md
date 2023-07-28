@@ -148,9 +148,13 @@ public:
 
 > ## **Importance：**
 > 这道题刚开始完全没有思路，中途有一点但是抓不住。看了答案之后，恍然大悟。
-> 需要找到每个循环的规律，然后保持每条边的填入规则（左闭右开）。
+> 需要找到每个循环的规律，然后保持每条边的填入规则（左闭右开。
+> 关于 `loop`部分为什么除以2，大佬的解释是：
+>   - 因为搜索一圈之后，下一圈的上边会往下走，下一圈的下边会往上走，高度就少2，下一圈的左边会往右走，下一圈的右边会往左走，相当于宽少2了，每次下一圈都会比上一圈的高度宽度都少2，直到这个没有外圈了，没有外圈就是宽度是和高度都是0的时候（偶数的情况），每次宽，高缩小2，直到宽，高是0。因为宽，高都一样，而且是一起缩2的，那么就当高缩2到0的时候就结束了，要缩多少次，就是圈。高假设是偶数，偶数-2-2-2一直到0，不就是这个偶数除2吗，就是圈数啦
 > - 需要多练哇！
-> LeetCode上另一个大佬Krahets的[解法](https://leetcode.cn/problems/spiral-matrix-ii/solutions/12594/spiral-matrix-ii-mo-ni-fa-she-ding-bian-jie-qing-x/)（比较通俗易懂）:
+> LeetCode上另一个大佬Krahets的[解法](https://leetcode.cn/problems/spiral-matrix-ii/solutions/12594/spiral-matrix-ii-mo-ni-fa-she-ding-bian-jie-qing-x/)（比较通俗易懂）
+
+
  ```C++
 class Solution {
     public int[][] generateMatrix(int n) {

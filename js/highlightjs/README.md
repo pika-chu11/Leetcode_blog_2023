@@ -1,4 +1,4 @@
-# Highlight.js CDN Assets
+<!-- # Highlight.js CDN Assets
 
 [![install size](https://packagephobia.now.sh/badge?p=highlight.js)](https://packagephobia.now.sh/result?p=highlight.js)
 
@@ -42,4 +42,4 @@ A list of the Core Team and contributors can be found in the [CONTRIBUTORS.md][8
 
 [1]: https://www.npmjs.com/package/highlight.js
 [7]: https://github.com/highlightjs/highlight.js/blob/main/LICENSE
-[8]: https://github.com/highlightjs/highlight.js/blob/main/CONTRIBUTORS.md
+[8]: https://github.com/highlightjs/highlight.js/blob/main/CONTRIBUTORS.md -->

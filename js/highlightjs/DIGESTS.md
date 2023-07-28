@@ -1,4 +1,4 @@
-## Subresource Integrity
+<!-- ## Subresource Integrity
 
 If you are loading Highlight.js via CDN you may wish to use [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) to guarantee that you are using a legimitate build of the library.
 
@@ -409,4 +409,4 @@ sha384-HEEMkUmM4Qq79lFD+lW07y+65uimb0naW+pg+F3yyZWxRa4Ph+I7KB6sFlpu+uGj language
 sha384-DYoPlCDcXrP3/Twe76kF0hp72pGP0/2BLvB965FR08PxB8fhoLu3lp4OM+IwmitH languages/typescript.min.js
 sha384-bPmt8yGeGWKl7WZeNwdw3ah1Sa7PrikWpK36KBv5P0Lj7F0yKvAcFLwWnziKwPJb es/languages/swift.min.js
 sha384-EOKjwxtJpPTT2PGJ2whEV3/798as+mCdVqZrIpFpI1SBcVY705sSizRzyjq06wNl es/languages/typescript.min.js
-```
+``` -->

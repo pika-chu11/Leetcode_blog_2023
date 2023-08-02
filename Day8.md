@@ -251,5 +251,5 @@ public:
 > - 输入：s = "abcdefg", k = 2
 >   1. 先反转ab -> ba
 >   2. 再反转cdefg -> gfedc
->   3. 这样得到: ba|gfedc
+>   3. 这样得到: ba-gfedc
 >   4. 将上面反转得到: cdefgab

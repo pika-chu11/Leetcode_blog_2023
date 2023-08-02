@@ -75,9 +75,11 @@ public:
     }
 };
 ```
+
 > 一开始这一题写的是用左闭右闭，写得一般：
+>
 > 
-```C++
+```cpp
 class Solution {
 public:
     string reverseStr(string s, int k) {

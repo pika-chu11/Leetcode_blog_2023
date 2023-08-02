@@ -5,7 +5,7 @@ title: Day8
 
 # [344. Reverse String](https://leetcode.com/problems/reverse-string/)
 
-```C++
+```cpp
 class Solution {
 public:
     void reverseString(vector<char>& s) {
